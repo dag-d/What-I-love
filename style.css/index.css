@@ -27,7 +27,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(89, 121, 225);
   margin: 0 15px;
   font-weight: bold;
   font-size: 1rem;
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffd54f; /* warm gold hover */
+  color: #023c5d; 
 }
 /* intro section */
 .intro {
