@@ -13,10 +13,10 @@ body {
 }
 /* 🎵 Header */
 header h1 {
-  background: linear-gradient(to right, #6a1b9a, #8e24aa); /* spiritual purple glow */
-  color: blue;
+  background: linear-gradient(to right,#6a1b9a ,#8e24aa ); /* spritual purple glow */
+  color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -36,4 +36,16 @@ nav a {
 
 nav a:hover {
   color: #ffd54f; /* warm gold hover */
+}
+/* intro section */
+.intro {
+padding:40px 20px ;
+text-align: center;
+max-width: 800px;
+margin-top: auto;
+}
+.intro h2 {
+  font-size: 2rem;
+  color: #301178; 
+   margin-bottom: 20px; 
 }
