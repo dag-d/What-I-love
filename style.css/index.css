@@ -1,0 +1,39 @@
+/* resetting and box sizing */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body styling */
+body { 
+    font-family: 'Libre baskerbille' , serif;
+    background-color:#f4f1f7 ; /* soft lavender  */
+    color:#2c1e4d; /*beige*/
+    line-height: 1.5;
+}
+/* 🎵 Header */
+header {
+  background: linear-gradient(to right, #6a1b9a, #8e24aa); /* spiritual purple glow */
+  color: blue;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 🔗 Navigation links */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd54f; /* warm gold hover */
+}
