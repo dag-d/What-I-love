@@ -6,6 +6,8 @@
     <title>rythms of faith</title>
     <link rel="stylesheet" href="style.css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
 </head>
 <body>
     <header>
@@ -17,5 +19,34 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+    <section class="contact-section">
+        <h2> <i class="fa-solid fa comments"></i>It'd be great to hear from you!</h2>
+        <form action="#" method="post">
+            <label for="name"> Name:</label> 
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <label for="age">Age:</label>
+            <input type="number" id name="age" name="age" required placeholder="Enter your age">
+            <p><i class="fa-solid fa-venus-mars"></i> Gender:</p>
+             <label><input type="radio" name="gender" value="Male" /> Male</label>
+            <label><input type="radio" name="gender" value="Female" /> Female</label>
+             <p>Your Preferences:</p>
+      <label><input type="checkbox" name="updates" /> Get Updates</label>
+      <label><input type="checkbox" name="subscribe" /> Subscribe to Newsletter</label>
+       <br>
+      <label for="satisfaction">Satisfaction Level:</label>
+      <input type="range" id="satisfaction" name="satisfaction" min="0" max="100" />
+     <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required placeholder="Leave your thoughts here..."></textarea>
+      <br>
+      <button type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
+        </form>
+        
+    </section>
 </body>
 </html>
