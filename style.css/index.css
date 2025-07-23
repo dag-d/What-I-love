@@ -51,7 +51,7 @@ margin-top: auto;
 }
 .intro p {
   font-size: 1.7rem;
-  margin bottom: 20px;
+  margin-bottom: 20px;
   text-align: center;
   padding: 25px 0;
   display:block;
@@ -60,7 +60,7 @@ blockquote{
   font-size: 1.3;
   font-style: italic;
   background-color: #94abeb;
-  border-left: 10px solid, #dbe0ef ;
+  border-left: 10px solid #dbe0ef ;
   margin: 20px auto;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-transform: capitalize;
@@ -69,7 +69,7 @@ blockquote{
 .featured img {
   width: 100%;
   height: 550px;
-  max-width: 700;
+  max-width: 700px;
   display: block;
   margin: 30px auto; 
   border-radius: 12px;
