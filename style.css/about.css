@@ -37,3 +37,118 @@ nav a {
 nav a:hover {
   color: #023c5d; 
 }
+/* genres and favourites list */
+.geners {
+    margin: 40px auto;
+    max-width: 700px;
+    background-color: #331971;
+    padding: 22px;
+    border-radius:12px
+}
+.genres h2 {
+    color:#874b02;
+    font-size: 1.7rem;
+    font-family: monospace;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.genres ul {
+    list-style-type:square;
+    padding-left: 80px;
+    text-transform: capitalize;
+    color: #4d1fb1;
+    font-size: medium;
+}
+.genres li {
+    margin: 8px 0;
+}
+.favorites h2 {
+    color:#874b02 ;
+    font-size: 1.7rem;
+    font-family: monospace;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    padding-left:30px ;
+}
+.favorites ol {
+    list-style-type: upper-roman;
+    padding-left: 80px;
+    color: #7731e7;
+}
+.favorites li{
+    margin: 8px 0;
+}
+/* 🎼 Artist Table */
+
+.table h2 {
+  color: #874b02;
+  margin-bottom: 15px; 
+  padding-left: 30px;
+  font-size: 1.8rem;
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  border-collapse: collapse;
+  background-color: #f0f5ff;
+  padding-left: 70px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: linear-gradient(to right, #add8e6, #e0f7fa);
+  color: #023c5d;
+  font-weight: bold;
+}
+
+th, td {
+  border: 2px solid #023c5d;
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+tbody tr:hover {
+  background-color: #dbeeff;
+  transition: background 0.3s ease;
+}
+
+/* 🔚 Footer */
+footer {
+  background-color: #b0ceec;
+  color: #033773;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-style: oblique;
+  border-top: 4px solid #94abeb;
+}
+/* 📱 Responsive Media Query */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .genres, .favorites, .table {
+    padding: 15px;
+  }
+
+  th, td {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  footer {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+}
