@@ -51,6 +51,11 @@ form label {
   color: #143150;
   padding-left: 15px;
 }
+.fa-solid {
+  margin-left: 15px;
+  padding-top: 12px;
+}
+
 input[type="text"]
 input[type="number"]
 textarea {
@@ -103,7 +108,13 @@ button i {
   font-size: 12px;
   padding-left: 20px;
 }
+footer {
+  background-color: #b1dbf5;
+  text-align: end;
+  padding: 12px;
+  margin-top: 10px;
 
+}
 /* 📱 Responsive Media Query */
 @media screen and (max-width: 600px) {
   header h1 {
