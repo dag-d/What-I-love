@@ -128,7 +128,7 @@ footer {
   font-style: oblique;
   border-top: 4px solid #94abeb;
 }
-/* 📱 Responsive Media Query */
+/* Mobile Responsive Media Query */
 @media screen and (max-width: 600px) {
   header h1 {
     font-size: 2rem;
@@ -150,5 +150,30 @@ footer {
   footer {
     font-size: 0.9rem;
     padding: 15px;
+  }
+}
+
+/* tablet responsive media query */
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 12px 0;
+  }
+
+  .genres, .favorites, .table {
+    padding: 15px;
+  }
+
+  th, td {
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+  footer {
+    font-size: 1.1rem;
+    padding: 20px;
   }
 }

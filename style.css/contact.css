@@ -115,7 +115,7 @@ footer {
   margin-top: 10px;
 
 }
-/* 📱 Responsive Media Query */
+/* Mobile Responsive Media Query */
 @media screen and (max-width: 600px) {
   header h1 {
     font-size: 2rem;
@@ -132,6 +132,27 @@ footer {
 
 button[type="submit"] {
   width: 75%;
+}
+
+}
+
+/* tablet responsive media query */
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 2.4rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 12px 0;
+  }
+
+.contact-section h2 {
+  font-size: 20px;
+}
+
+button[type="submit"] {
+  width: 85%;
 }
 
 }

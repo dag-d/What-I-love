@@ -86,7 +86,7 @@ footer {
    text-transform: uppercase;
    font-style:oblique;
 }
-/* 📱 Responsive Media Query */
+/* Mobile Responsive Media Query */
 @media screen and (max-width: 600px) {
   header h1 {
     font-size: 2rem;
@@ -108,5 +108,30 @@ footer {
 
   .featured img {
     border-radius: 6px;
+  }
+}
+
+/* tablet responsive media query */
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 12px 0;
+  }
+
+  .intro h2 {
+    font-size: 1.7rem;
+  }
+
+  blockquote {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  .featured img {
+    border-radius: 10px;
   }
 }
