@@ -1,8 +1,8 @@
 # What-I-love
 First CSS project with HTML
-## used languages
+## Used Languages
 CSS and HTML
-### features
+### Features
 gradient header
 responsive gallery and fade-in animations
 thoughtful accessiblity for all screen sizes
